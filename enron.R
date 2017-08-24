@@ -66,7 +66,7 @@ for(i in 1:length(set)){
 sink("enron.txt")
 
 # same process runs 10 iterations with random holdout cross validation
-for(gg in 1:1){
+for(gg in 1:10){
   
   y0 <- create_holdout_partition(y[[1]], c(train=0.66, test=0.34), "random")	# separate dataset in to Test and Training randomly
   train <- row.names(y0$train$dataset)
