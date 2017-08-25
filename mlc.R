@@ -131,5 +131,4 @@ for(gg in 1:10){
 # File close
 sink()
 
-# I have used simple java programe to calculate F1 measures from this out file.
 
